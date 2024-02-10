@@ -1,0 +1,8 @@
+[deluge.plugin.core]
+SoloFolder = deluge_solofolder:CorePlugin
+
+[deluge.plugin.gtk3ui]
+SoloFolder = deluge_solofolder:Gtk3UIPlugin
+
+[deluge.plugin.web]
+SoloFolder = deluge_solofolder:WebUIPlugin

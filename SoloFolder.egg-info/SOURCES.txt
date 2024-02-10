@@ -1,0 +1,13 @@
+setup.py
+SoloFolder.egg-info/PKG-INFO
+SoloFolder.egg-info/SOURCES.txt
+SoloFolder.egg-info/dependency_links.txt
+SoloFolder.egg-info/entry_points.txt
+SoloFolder.egg-info/top_level.txt
+deluge_solofolder/__init__.py
+deluge_solofolder/common.py
+deluge_solofolder/core.py
+deluge_solofolder/gtk3ui.py
+deluge_solofolder/webui.py
+deluge_solofolder/data/config.ui
+deluge_solofolder/data/solofolder.js
