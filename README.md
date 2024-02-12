@@ -10,6 +10,7 @@ Over time, this can clutter the download folder, so this plugin solves that prob
 
 ## Installation
 For Deluge 1.3, Download [SoloFolder-0.0.1-py2.7.egg](https://github.com/EasyG0ing1/SoloFolder/releases/download/0.0.1/SoloFolder-0.0.1-py2.7.egg)
+
 For Deluge 2, Download [SoloFolder-1.0.0-py3.8.egg](https://github.com/EasyG0ing1/SoloFolder/releases/download/0.0.1/SoloFolder-1.0.0-py3.8.egg)
 
 You can use the Preferences installer for 1.3 and it will work just fine.
