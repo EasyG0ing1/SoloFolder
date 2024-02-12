@@ -6,12 +6,10 @@
 # This file is part of SoloFolder and is licensed under GNU GPL 3.0, or later,
 # with the additional special exception to link portions of this program with
 # the OpenSSL library. See LICENSE for more details.
+
 from __future__ import unicode_literals
-
-import os.path
-
-from pkg_resources import resource_filename
 
 
 def get_resource(filename):
-    return resource_filename(__package__, os.path.join('data', filename))
+    import pkg_resources, os
+    return pkg_resources.resource_filename("solofolder", os.path.join("data", filename))

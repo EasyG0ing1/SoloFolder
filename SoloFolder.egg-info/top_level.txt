@@ -1,1 +1,1 @@
-deluge_solofolder
+solofolder

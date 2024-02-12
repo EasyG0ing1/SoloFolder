@@ -8,17 +8,16 @@
 # the OpenSSL library. See LICENSE for more details.
 from __future__ import unicode_literals
 
-import logging
-
 from gi.repository import Gtk
 
-import deluge.component as component
-from deluge.plugins.pluginbase import Gtk3PluginBase
+import logging
+log = logging.getLogger(__name__)
 from deluge.ui.client import client
+from deluge.plugins.pluginbase import Gtk3PluginBase
+import deluge.component as component
 
 from .common import get_resource
 
-log = logging.getLogger(__name__)
 
 
 class Gtk3UI(Gtk3PluginBase):
